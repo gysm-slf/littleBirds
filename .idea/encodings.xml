@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/littleBird-cloud-alibaba-config-3377/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-cloud-alibaba-config-3377/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-cloud-alibaba-nacos-order-84/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-cloud-alibaba-nacos-order-84/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-cloud-alibaba-nacos-payment-provider-9003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-cloud-alibaba-nacos-payment-provider-9003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-cloud-alibaba-nacos-payment-provider-9004/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-cloud-alibaba-nacos-payment-provider-9004/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-cloud-alibaba-order-provider-83/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-cloud-alibaba-order-provider-83/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-cloud-alibaba-payment-provider-9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-cloud-alibaba-payment-provider-9001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-cloud-alibaba-payment-provider-9002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-cloud-alibaba-payment-provider-9002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-commons-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-commons-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-config-center-3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-config-center-3344/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-config-client-3355/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-config-client-3355/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-config-client-3366/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-config-client-3366/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-eureka-server-7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-eureka-server-7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-eureka-server-7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-eureka-server-7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-gateway-9527/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-gateway-9527/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-hystrix-dashboard-order-9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-hystrix-dashboard-order-9001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-hystrix-order-caller-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-hystrix-order-caller-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-hystrix-payment-provider-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-hystrix-payment-provider-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-openFeigh-order-caller-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-openFeigh-order-caller-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-order-provider-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-order-provider-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-payment-provider-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-payment-provider-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-payment-provider-8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-payment-provider-8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-practise-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-practise-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-rabbitMQ-practise/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-rabbitMQ-practise/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-redis-practise/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-redis-practise/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-sentinel-service-8401/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-sentinel-service-8401/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-stream-rabbitmq-consumer-8802/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-stream-rabbitmq-consumer-8802/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-stream-rabbitmq-consumer-8803/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-stream-rabbitmq-consumer-8803/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-stream-rabbitmq-provider-8801/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-stream-rabbitmq-provider-8801/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-zookeeper-order-caller-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-zookeeper-order-caller-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-zookeeper-payment-provider-8004/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird-zookeeper-payment-provider-8004/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,25 @@
+{
+	"name": "gysm",
+	"url": "http://127.0.0.1/littleBird",
+	"page": 1,
+	"isNonProfit": true,
+	"address": {
+		"steet": "",
+		"city": "bj",
+		"country": "CN"
+	},
+	"links": [
+		{
+			"name": "bilibili",
+			"url": "https://www.bilibili.com"
+		},
+		{
+			"name": "",
+			"url": ""
+		},
+		{
+			"name": "",
+			"url": ""
+		}
+	]
+}

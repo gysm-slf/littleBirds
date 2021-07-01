@@ -1,0 +1,36 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: config-center  # 注册进eureka Server 的微服务名
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/gysm-slf/littleBirds.git
+#          uri: git@github.com:gysm-slf/littleBirds.git # github 仓库位置
+          ## 搜索目录
+          search-paths:
+            - resource
+          # 读取的分支
+          default-label: main
+
+# rabbitMq的相关配置
+rabbitmq:
+  host: localhost
+  port: 5672
+  username: guest
+  password: guest
+
+# rabbitmq 的相关配置2 暴露bus刷新配置的端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/

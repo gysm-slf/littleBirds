@@ -1,0 +1,32 @@
+server:
+  port: 84
+
+spring:
+  application:
+    name: nacos-order-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8719
+#     sentinel持久化
+#      datasource:
+#        ds1:
+#          nacos:
+#            server-addr: localhost:8848
+#            dataId: ${spring.application.name}
+#            groupId: DEFAULT_GROUP
+#            data-type: json
+#            rule-type: flow
+
+# 自定义的一个属性，提供者服务地址
+service-url:
+  nacos-user-service: http://nacos-payment-provider
+
+# 激活Sentinel对Feign的支持
+feign:
+  sentinel:
+    enabled: true

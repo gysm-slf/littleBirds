@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<div id="vue">
+		{{info.name}}
+		{{info.url}}
+	</div>
+	
+	<script src="js/vue_2021.1.3.js"></script>
+	<script src="js/axios.min.js"></script>
+	//js中{}是一个对象 []是一个数组
+	<script type="text/javascript">
+		var vm = new Vue({
+			el: "#vue",
+			data(){
+				//这里的return用于接收axios里面的response数据
+				//返回后的数据赋值给data()中定义的属性
+				return{
+					//this.info接收了下面的response.data
+					//这里为null,先理解为赋默认值吧(目前的个人理解,先这样记一下)
+					info: null
+					/* {
+						name: null,
+						address: {
+							street: null,
+							city: null,
+							country: null
+						},
+						url: null
+					} */
+				}
+			},
+			mounted(){//钩子函数,一般用于ajax请求前的初始化
+				axios.get("json/data.json")
+				     .then(response=>(this.info=response.data))
+				     .catch(function (error){
+				    	 console.log(error);
+				     });
+			}
+		});
+	</script>
+</body>
+</html>

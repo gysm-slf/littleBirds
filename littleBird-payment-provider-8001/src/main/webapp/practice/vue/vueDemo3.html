@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>vue-for demo</div>
+	<div id="demo1">
+		<li v-for="(item,index) in items">
+			{{index}}:{{item.message}}
+		</li>
+	</div>
+	<script src="js/vue_2021.1.3.js"></script>
+	<script type="text/javascript">
+		var vm = new Vue({
+			el: "#demo1",
+			data:{
+				items: [
+					{message: "zhangsan"},
+					{message: "man"},
+					{message: "21"}
+				]
+		
+			}
+		});
+	</script>
+</body>
+</html>

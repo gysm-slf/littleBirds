@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>vue-event demo</div>
+	<div id="demo1">
+						  <!-- contextmenu 右击右键菜单出现前触发事件,这里的意思是绑定了该事件,且在触发事件后执行绑定的function函数 -->	
+		<button id="btn1" v-on:contextmenu="event_click_demo">click here!</button>
+	</div>
+	<script src="js/vue_2021.1.3.js"></script>
+	<script type="text/javascript">
+		var vm = new Vue({
+			el: "#demo1",
+			data: {},
+			methods: {
+				event_click_demo: function (event) {
+					alert("触发了vue的单击事件");
+				}
+			}
+		});
+	</script>
+</body>
+</html>

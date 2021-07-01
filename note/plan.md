@@ -1,0 +1,3 @@
+JVM,
+RabbitMQ,
+docker

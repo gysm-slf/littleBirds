@@ -1,0 +1,6 @@
+#3377去8848nacos上拉取一个Dev文件   nacos上的配置文件更新后可及时生效
+spring:
+  profiles:
+    active: prod # 表示开发环境
+#    active: test # 表示测试环境
+#    active: prod # 表示生产环境

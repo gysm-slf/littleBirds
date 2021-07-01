@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div id="vue">
+		<demo-component>
+			<title-component slot="title-component" v-bind:title="title"></title-component>
+														//取出items的每一项为item 绑定给item-component组件中的props: ['item']
+			<item-component slot="item-component" v-for="(item,index) in items" 
+							v-bind:index="index" v-bind:item="item" v-on:remove_items="remove_items(index)"></item-component>
+			<!-- hello,vue!
+			one
+			two
+			three
+			add -->
+			<!-- <item-component slot="item-component" v-bind:item="items"></item-component> -->
+			//hello,vue!
+			//[ "one", "two", "three", "add" ]
+		</demo-component>
+	</div>
+	<script src="js/vue_2021.1.3.js"></script>
+	<script type="text/javascript">
+		Vue.component("demo-component",{
+			template: "<div>"
+						+"<slot name='title-component'></slot>"
+						+"<ul>"
+							+"<slot name='item-component'></slot>"
+						+"</ul>"
+						+"</div>"
+		});
+		Vue.component("title-component",{
+			props: ['title'],
+			template: "<p>{{title}}</p>"
+		});
+		Vue.component("item-component",{
+			props: ['index','item'],
+			/* 在控件中添加直接显示在页面的文本值时要使用{{}},但是方法中可以直接调用,不能加{{}} */
+			template: "<li>{{index}}:{{item}}<button v-on:click='remove(index,item)'>删除</button></li>",
+			methods: {
+				remove: function(index,item){
+					this.$emit('remove_items',index);
+				}
+			}
+		});
+		var vm = new Vue({
+			el: "#vue",
+			data:{
+				title: "hello,vue!",
+				items: ['one','two','three','add']
+			},
+			methods: {
+				remove_items: function(index){
+					console.log("remove_items" + index);
+					this.items.splice(index,1);
+				}
+			}
+		});
+	</script>
+</body>
+</html>

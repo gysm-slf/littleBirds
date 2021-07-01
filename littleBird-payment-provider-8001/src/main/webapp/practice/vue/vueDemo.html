@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div id="demo1">
+			<!-- 这里的意思是给span标签的title属性绑定为vue对象vm的data.message1的值 -->
+		<span v-bind:title="message1">悬停提示信息</span>
+		{{message1}}
+		<span title="hello,i'm not vue!">悬停提示信息</span>
+	</div>
+	<script src="js/vue_2021.1.3.js"></script>
+	<script type="text/javascript">
+		var vm = new Vue({
+			el: "#demo1",
+			data:{
+				message1:"hello,vue!"
+			}
+		});
+	</script>
+</body>
+</html>

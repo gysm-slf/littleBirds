@@ -1,0 +1,25 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: PAYMENT-SERVICE
+  cloud:
+    zookeeper:
+#      如果是zookeeper集群connect-string: 192.168.88.129:2181,192.168.88.130:2181,192.168.88.131:2181
+      connect-string: 192.168.88.129:2181
+    #    这里千万记得想一下不自动的话到底该怎样确定连哪个驱动,现在不自动是启不来的
+    #    type: com.alibaba.druid.pool.DruidDataSource
+    #    driver-class-name: org.gjt.mm.mysql.Driver
+    url: jdbc:mysql://127.0.0.1:3306/littlebirds?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=CTT
+    username: root
+    password: gysm.slf
+
+mybatis:
+  #  如果绑定不到,把mapper.xml文件放到resource目录下(idea工具有些版本默认不会编译源码文件下的xml文件)
+  #  如果更换后依然绑定不到,可以看下target目标目录是否有对应的xml文件
+  #  如果没有可以更换classpath:mapper/*.xml为classpath:mapping/*.xml(当然resource目录下目录名也对应更改,如果本来就是mapping,则相反改为mapper,清理下缓存)maven冲加载、重新构建项目都试一下
+  #  也可以不再此处配置,在启动类中使用MapperScan注解
+  mapper-locations: classpath:mapper/*.xml
+#  type-aliases-package: com.db1.pojo
+#  config-location: classpath:mybatis-config.xml

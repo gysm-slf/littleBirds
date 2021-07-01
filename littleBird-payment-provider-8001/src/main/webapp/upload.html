@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<title>文件上传</title>
+		<link rel="stylesheet" href="/static/build/layui.css" media="all">
+	</head>
+	<body>
+	</body>
+		<button type="button" class="layui-btn" id="uploadButton">
+		  <i class="layui-icon">&#xe67c;</i>上传图片
+	</button>
+
+<script src="layui/layui.js"></script>
+<script>
+layui.use('upload', function(){
+  var upload = layui.upload;
+   
+  //执行实例
+  var uploadInst = upload.render({
+     elem: '#uploadButton' //绑定元素
+    ,url: '/file/upload/batch' //上传接口
+    ,multiple: true
+    ,number: 12
+    ,done: function(data){
+      //上传完毕回调
+      console.log("msg=",data)
+    }
+    ,error: function(data){
+      //请求异常回调
+      console.log("msg=",data)
+    }
+  });
+});
+</script>
+</html>

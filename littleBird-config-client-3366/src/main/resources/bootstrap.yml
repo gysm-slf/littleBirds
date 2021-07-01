@@ -1,0 +1,34 @@
+server:
+  port: 3366
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    # config 客户端配置
+    config:
+      label: main         # 分支名称
+      name: config       # 配置文件名称
+      profile: dev      # 使用配置环境
+      uri: http://littleBirds-config.com:3344  # config Server 地址
+  # 综合上面四个 即读取配置文件地址为： http://littleBirds-config.com:3344/main/config-dev.yml
+  # rabbitMq的相关配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+# 暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+    register-with-eureka: true
+    fetch-registry: true

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>vue-time demo</div>
+	<div id="vue">
+		{{currentTime()}}
+		{{com_currentTime}}
+	</div>
+	<script src="js/vue_2021.1.3.js"></script>
+	<script type="text/javascript">
+		var vm = new Vue({
+			el: "#vue",
+			data: {
+				message: "hello world!"
+			},
+			methods: {
+				currentTime: function () {
+					return new Date().toLocaleString();
+				}
+			},
+			//计算属性,里面的function name最好不要和methods下的function重复
+			//在浏览器控制台console.log(currentTime())会一直改变
+			//在浏览器控制台console.log(com_currentTime)
+			//只有当有数据项发生改变的时候才会改变,类似于缓存
+			computed: {
+				com_currentTime: function () {
+					//当在浏览器改变message值时,会重新加载
+					this.message;
+					return new Date().toLocaleString();
+				}
+			}
+		});
+	</script>
+</body>
+</html>

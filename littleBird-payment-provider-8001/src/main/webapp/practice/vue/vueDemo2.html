@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>vue-if demo</div>
+	<div id="demo1">
+		<h1 v-if="score==='A'">A</h1>
+		<h1 v-else-if="score==='B'">B</h1>
+		<h1 v-else>C</h1>
+	</div>
+	<script src="js/vue_2021.1.3.js"></script>
+	<script type="text/javascript">
+		var vm = new Vue({
+			el: "#demo1",
+			data:{
+				score:"A"
+			}
+		});
+	</script>
+</body>
+</html>

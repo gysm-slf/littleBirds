@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="littleBird-zookeeper-order-caller-80" />
+        <module name="littleBird-rabbitMQ-practise" />
+        <module name="littleBird-zookeeper-payment-provider-8004" />
+        <module name="littleBird-eureka-server-7002" />
+        <module name="littleBird-zookeeper-order-provider-80" />
+        <module name="littleBird-eureka-server-7001" />
+        <module name="littleBird-cloud-alibaba-payment-provider-9002" />
+        <module name="littleBird-web-test" />
+        <module name="littleBird-cloud-alibaba-payment-provider-9001" />
+        <module name="littleBird-practise-test" />
+        <module name="littleBird-gateway" />
+        <module name="littleBird-payment-provider-8001" />
+        <module name="littleBird-payment-provider-8002" />
+        <module name="littleBird-payment-provider-8004" />
+        <module name="littleBird-stream-rabbitmq-consumer-8802" />
+        <module name="littleBird-cloud-alibaba-order-provider-83" />
+        <module name="littleBird-stream-rabbitmq-consumer-8803" />
+        <module name="littleBird-config-client-3355" />
+        <module name="littleBird-order-provider-80" />
+        <module name="littleBird-stream-rabbitmq-provider-8801" />
+        <module name="littleBird-cloud-alibaba-nacos-payment-provider-9003" />
+        <module name="littleBird-config-center-3344" />
+        <module name="littleBird-cloud-alibaba-config-3377" />
+        <module name="littleBird-hystrix-payment-provider-8001" />
+        <module name="littleBird-redis-practise" />
+        <module name="cn-littleBird-zookeeper-order-provider-80" />
+        <module name="littleBird-openFeigh-order-caller-80" />
+        <module name="littleBird-practise(test)" />
+        <module name="littleBird-commons-api" />
+        <module name="littleBird-gateway-9527" />
+        <module name="littleBird-hystrix-order-caller-80" />
+        <module name="littleBird-hystrix-dashboard-order-9001" />
+        <module name="littleBird-sentinel-service-8401" />
+        <module name="littleBird-cloud-alibaba-nacos-order-84" />
+        <module name="littleBird-cloud-alibaba-nacos-payment-provider-9004" />
+        <module name="littleBird-config-client-3366" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="boot-rabbitmq" target="8" />
+      <module name="cn-littleBird-zookeeper-order-provider-80" target="8" />
+      <module name="littleBird-practise(test)" target="8" />
+      <module name="littleBird-web-test" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="littleBird-cloud-alibaba-config-3377" options="-parameters" />
+      <module name="littleBird-cloud-alibaba-nacos-order-84" options="-parameters" />
+      <module name="littleBird-cloud-alibaba-nacos-payment-provider-9003" options="-parameters" />
+      <module name="littleBird-cloud-alibaba-nacos-payment-provider-9004" options="-parameters" />
+      <module name="littleBird-cloud-alibaba-order-provider-83" options="-parameters" />
+      <module name="littleBird-cloud-alibaba-payment-provider-9001" options="-parameters" />
+      <module name="littleBird-cloud-alibaba-payment-provider-9002" options="-parameters" />
+      <module name="littleBird-commons-api" options="-parameters" />
+      <module name="littleBird-config-center-3344" options="-parameters" />
+      <module name="littleBird-config-client-3355" options="-parameters" />
+      <module name="littleBird-config-client-3366" options="-parameters" />
+      <module name="littleBird-eureka-server-7001" options="-parameters" />
+      <module name="littleBird-eureka-server-7002" options="-parameters" />
+      <module name="littleBird-gateway" options="-parameters" />
+      <module name="littleBird-gateway-9527" options="-parameters" />
+      <module name="littleBird-hystrix-dashboard-order-9001" options="-parameters" />
+      <module name="littleBird-hystrix-order-caller-80" options="-parameters" />
+      <module name="littleBird-hystrix-payment-provider-8001" options="-parameters" />
+      <module name="littleBird-openFeigh-order-caller-80" options="-parameters" />
+      <module name="littleBird-order-provider-80" options="-parameters" />
+      <module name="littleBird-payment-provider-8001" options="-parameters" />
+      <module name="littleBird-payment-provider-8002" options="-parameters" />
+      <module name="littleBird-payment-provider-8004" options="-parameters" />
+      <module name="littleBird-practise-test" options="-parameters" />
+      <module name="littleBird-rabbitMQ-practise" options="-parameters" />
+      <module name="littleBird-redis-practise" options="-parameters" />
+      <module name="littleBird-sentinel-service-8401" options="-parameters" />
+      <module name="littleBird-stream-rabbitmq-consumer-8802" options="-parameters" />
+      <module name="littleBird-stream-rabbitmq-consumer-8803" options="-parameters" />
+      <module name="littleBird-stream-rabbitmq-provider-8801" options="-parameters" />
+      <module name="littleBird-web-test" options="-parameters" />
+      <module name="littleBird-zookeeper-order-caller-80" options="-parameters" />
+      <module name="littleBird-zookeeper-order-provider-80" options="-parameters" />
+      <module name="littleBird-zookeeper-payment-provider-8004" options="-parameters" />
+    </option>
+  </component>
+</project>

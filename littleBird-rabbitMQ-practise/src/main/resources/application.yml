@@ -1,0 +1,14 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /             # 默认上下文路径,2.0版本前为server.context-path
+
+spring:
+  application:
+    name: payment-service
+#  rabbitmq:
+#    virtual-host: littleBird
+#    username: admin
+#    password: admin
+#    host: 192.168.88.130
+#    port: 5672
