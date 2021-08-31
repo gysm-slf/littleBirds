@@ -2,17 +2,20 @@ package cn.littleBird.demo;
 
 public class Test {
 
+    @org.junit.Test
     public static void main(String[] args) {
-        sellTickets s1 = new sellTickets();
-        sellTickets s2 = new sellTickets();
-        Thread t1 = new Thread(s1);
-        Thread t2 = new Thread(s1);
-        Thread t3 = new Thread(s1);
-        Thread t4 = new Thread(s2);
-        t1.start();
-        t2.start();
-        t3.start();
+//        sellTickets s1 = new sellTickets();
+//        sellTickets s2 = new sellTickets();
+//        Thread t1 = new Thread(s1);
+//        Thread t2 = new Thread(s1);
+//        Thread t3 = new Thread(s1);
+//        Thread t4 = new Thread(s2);
+//        t1.start();
+//        t2.start();
+//        t3.start();
 //        t4.start();
+
+        System.out.println("hello bug");
     }
 
 }
