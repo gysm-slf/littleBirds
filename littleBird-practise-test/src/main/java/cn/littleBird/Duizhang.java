@@ -3,7 +3,7 @@ package cn.littleBird;
 public class Duizhang {
     public static void main(String[] args) {
 /**
- * 2021 08 17       41758
+ * 2022 03 10       37937上下
  */
         System.out.println("马老板欠我的");
         int mahuifeng = 800 + 660 + 530 + 944 + 2000 + 541 + 1320 + 613 + 330 + 1100 + 1000 + 1000 + 3000 - 700 + 660 + 660 + 673 + 7500 - 66 + 330 + 990 + 200 + 330 + 330 + 330 + 330 + 660 - 7500 + 660 + 2244 + 330 + 330 + 990 + 660 +
@@ -12,14 +12,13 @@ public class Duizhang {
                 + 20750 + 18033 + 38 + 7500 + 78 + 1000 + 167 - 15000 + 450 + 318 - 2500 + 716 + 193;
         System.out.println(
                 mahuifeng
-
-
         );
 
-        int hb = 26664, jb = 27189, xyk = 26838;
+        int hb = 26122, jb = 39508, xyk = 13793;
 
-        System.out.println("我的  ");
-        System.out.println(mahuifeng - hb - jb - xyk + 1500 + 2400 + 13000);
+        System.out.println("我的  ");//2400是pad卖了
+//        System.out.println(mahuifeng - hb - jb - xyk + 1500 + 2400 + 13000);
+        System.out.println(mahuifeng - hb - jb - xyk + 1500 + 13000 + 9600 + "上下");
 
         System.out.println("我的 1月");
     }
