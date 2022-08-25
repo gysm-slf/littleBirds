@@ -16,10 +16,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -27,7 +24,25 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.nio.ByteBuffer;
 
 public class Test {
-
+  /**
+   * JVM
+   *  方法区   栈 本地方法栈
+   *   堆     程序计数器
+   *
+   * 方法区：类的模板（共享内容，如成员变量，构造函数，普通方法），还包括运行时常量池等字节码内容。线程共享
+   * （注：方法区只是一种规范，不同jvm实现不同，最典型的为永久代和元空间。）
+   * 堆：（存储）
+   *
+   * 栈：（运行）随线程的创建而创建（生命周期与线程一致，线程结束栈内存也就释放，线程私有且每个线程一个栈，不存在垃圾回收机制，因为线程结束直接就释放掉了）
+   *    主要存储本地变量（输入输出参数、方法内的变量）、栈操作（出栈、入栈操作）、栈帧数据（类文件、方法）。
+   *    Person person = new Person(); person在栈内 new Person在堆内 java方法 = 栈帧
+   *    栈中的数据都是以栈帧格式存在的，栈帧是一个内存区块，当一个方法A被调用时就产生了一个栈帧F1并入栈，A方法又调用B方法，于是又产生栈帧F2并入栈 若F1需要出栈则只能等F2出栈（B方法执行完毕）。先进后出原则
+   *    栈帧内部会存储局部变量表，操作数栈、动态链接、方法出口信息等
+   * 本地方法栈：系统底层或者其它语言实现的（native修饰的方法）
+   * 程序计数器（寄存器）：记录方法间的调用和执行情况，用来存储下一条指令的地址。线程私有且每个线程一份（类似排版值日表）
+   *
+   * @param args
+   */
   public static void main(String[] args) {
     sellTickets s1 = new sellTickets();
     sellTickets s2 = new sellTickets();
@@ -41,6 +56,17 @@ public class Test {
     t4.start();
 
     System.out.println("hello bug");
+
+  }
+
+  @org.junit.Test
+  public void MapTest() {
+    HashMap<String, String> map = new HashMap<>();
+    map.put("zhangsan", "我是张三");
+    map.put("lisi", "我是李四");
+    Set<String> strings = map.keySet();
+    Set<Map.Entry<String, String>> entries = map.entrySet();
+
   }
 
   @org.junit.Test
@@ -155,17 +181,27 @@ public class Test {
   }
 
   @org.junit.Test
-  public void demo2_Test() {
-
+  public void luotongTalent(){
+    int three, five, eight, n;
+    Scanner scanner = new Scanner(System.in);
+    while (true){
+      n = 45;
+      three = 0; five = 0; eight = 0;
+      for (int i = 0; i <= n; i++) {
+        if(i % 3 == 0)
+          three++;
+        if(i % 5 == 0)
+          five++;
+        if(i % 8 == 0)
+          eight++;
+      }
+      System.out.println(three + " " + five + " " + eight);
+    }
   }
 
-  @org.junit.Test
-  public void demo3_Test() {
 
-  }
-
-  @org.junit.Test
-  public void demo4_Test() {
+    @org.junit.Test
+    public void demo4_Test(){
 
   }
 
