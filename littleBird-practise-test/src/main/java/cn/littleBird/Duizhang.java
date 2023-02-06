@@ -32,10 +32,10 @@ public class Duizhang {
 //      2022-03-10
 //      int hb = 26342, jb = 30118, xyk = 0, nzj = 12405, ye = 1603 + 630, sjx = 1500;
 
-    double hb = 33775.8, jb = 47674.35, xyk = 0, zfb = 40.93, jsyh = 1647.71, wechatye = 26.11;
+    double hb = -33775.8, jb = -47674.35, xyk = 0, zfb = 40.93, jsyh = 1647.71, wechatye = 26.11;
 
     System.out.println("我的：  ");
-    System.out.println(mahuifeng - hb - jb - xyk + zfb + jsyh + wechatye);
+    System.out.println(mahuifeng + hb + jb + xyk + zfb + jsyh + wechatye);
   }
 
 
