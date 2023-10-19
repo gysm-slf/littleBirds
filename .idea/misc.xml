@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/gysm-slf-develop-standard-service" />
     <file type="web" url="file://$PROJECT_DIR$/gysm.slf.develop.standard" />
     <file type="web" url="file://$PROJECT_DIR$/littleBird-rabbitMQ-practise" />
     <file type="web" url="file://$PROJECT_DIR$/littleBird-web-test" />

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/gysm.slf.develop.standard.web.iml" filepath="$PROJECT_DIR$/gysm.slf.develop.standard.web.iml" />
       <module fileurl="file://$PROJECT_DIR$/vue-practise.iml" filepath="$PROJECT_DIR$/vue-practise.iml" />
     </modules>
   </component>

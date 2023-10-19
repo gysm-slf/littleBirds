@@ -46,7 +46,7 @@
       <module>littleBird-practise-test</module>
       <module>littleBird-rabbitMQ-practise</module>
       <module>littleBird-redis-practise</module>
-      <module>gysm.slf.develop.standard</module>
+      <module>gysm-slf-develop-standard-service</module>
   </modules>
   <!-- 总的父工程,开启后子工程通过dependencyManagement继承父pom,这样子工程中不声明version则默认使用父工程的version -->
   <packaging>pom</packaging>
