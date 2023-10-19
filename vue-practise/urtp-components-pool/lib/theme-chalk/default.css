@@ -1,0 +1,36 @@
+
+.c_1 {height: 55px;width: 79%;margin-bottom: 2px;float: right;border: 1px #F3F6FB solid;border-bottom: 1px #66B3FF solid;padding-bottom: 2px;z-index: 999;}
+.c_11 {display: flex;}
+.c_2 {cursor: pointer;border-top: 2px #1b66e6 solid;border-left: 1px #1b66e6 solid;border-right: 1px #1b66e6 solid;border-bottom: 1px #66B3FF solid;border-radius: 12px 12px 1px 1px;margin-bottom: 1px;background-color: #fff;}
+.c_23 {width: 20%;height: 100%;line-height: 55px;display: flex;}
+.c_24 {width: 90%;text-align: center;font-size: 18px;font-weight: bold;}
+.c_25 {width: 10%;text-align: center;display: flex;align-items: center;justify-content: center;}
+.c_26 {width: 1px;height: 35px;background: #d0d0d0;}
+.c_3 {position: absolute;min-width: 680px;height: auto;background: #fff;z-index: 999;border: #66B3FF 1px solid;}
+.c_3 ul.ml {float: left;width: 150px;margin-left: -1px;padding: 5px 0 5px 20px;border-left: 1px dashed #d7e8f1;zoom: 1;cursor: pointer;margin-top: 0px;}
+.c_3 ul.ml li {margin-top: 10px;margin-bottom: 10px;}
+.c_31 {font-size: 15px;font-weight: bold;color: #7B7B7B;margin-bottom: -3px;}
+.c_27 {padding-left: 2px;}
+.c_25 .el-icon-arrow-down {padding: 0px 6px;}
+.noLabel {margin-top: -8px;}
+.p_right30 ._group_cls_num { /* float: right;  */display: inline-block;vertical-align: middle;cursor: pointer;color: #999; /* margin-top: 4px; display: inline-block;line-height: 26px; */}
+/* 左侧：悬停框 */
+.c_23 {width: unset;}
+.c_24 {width: unset;margin: auto 15px;min-width: 72px;}
+.c_25 {width: unset;}
+/* 右侧：论文、案例、法规、合同、业务助手、出版物导航 */
+.c_11 {display: unset;}
+.c_2 {float: left;}
+.c_27 {height: 55px;line-height: 55px;float: right;}
+.c_3 {margin-top: 55px;padding-bottom: 20px;}
+/* 悬停下拉菜单的样式 */
+.c_31 {min-height: 25.5px;}
+ul.ml input[type="checkbox"] {margin-right: 3px;}
+ol, ul li {list-style: none outside none;}
+.c_3 li, .c_3 h4 {text-align: left;}
+/* 按钮组要清楚 ml 的浮动，否则就回导致，在buttons中的几个按钮也 c_3 下的 ml 一样 浮动 */
+.buttons {margin-right:40px;clear:both;}
+.buttons ul li{float:right;margin:auto 20px;color:#fff;padding: 0px 10px;line-height: unset;border-radius: 5px;cursor: pointer;}
+#checkAllBtn{background-color:#389AFF;}
+#resetBtn{background-color:#E9B876;}
+#clearBtn{background-color:#DCDBD9;}

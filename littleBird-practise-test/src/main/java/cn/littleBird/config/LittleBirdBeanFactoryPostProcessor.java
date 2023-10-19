@@ -1,11 +1,8 @@
 package cn.littleBird.config;
 
-import cn.littleBird.core.controller.UserController;
 import org.springframework.beans.BeansException;
-import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
-import org.springframework.beans.factory.support.GenericBeanDefinition;
 import org.springframework.stereotype.Component;
 
 //想要生效要加这个注解 注册到spring容器中

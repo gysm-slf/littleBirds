@@ -1,13 +1,5 @@
 package cn.littleBird.core;
 
-import cn.littleBird.config.AppConfig;
-import cn.littleBird.core.SimpleAlgorithm.SortsUtilsImpl;
-import cn.littleBird.core.controller.UserController;
-import cn.littleBird.core.service.UserService;
-import cn.littleBird.core.service.impl.UserServiceImpl;
-import cn.littleBird.utils.SingleLinkedList;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
 import java.util.*;
 
 /*
