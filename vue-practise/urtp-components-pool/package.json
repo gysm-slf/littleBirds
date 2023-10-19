@@ -1,0 +1,11 @@
+{
+  "name": "urtp-components-pool",
+  "version": "1.0.0",
+  "description": "urtp前端组件池，初版本，组件列表1）下拉弹出导航",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sulongfei",
+  "license": "ISC"
+}
