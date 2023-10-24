@@ -30,7 +30,6 @@
         <module name="littleBird-cloud-alibaba-nacos-payment-provider-9003" />
         <module name="littleBird-config-center-3344" />
         <module name="littleBird-cloud-alibaba-config-3377" />
-        <module name="gysm.slf.develop.standard" />
         <module name="littleBird-hystrix-payment-provider-8001" />
         <module name="littleBird-redis-practise" />
         <module name="cn-littleBird-zookeeper-order-provider-80" />
@@ -49,6 +48,7 @@
     <bytecodeTargetLevel>
       <module name="boot-rabbitmq" target="8" />
       <module name="cn-littleBird-zookeeper-order-provider-80" target="8" />
+      <module name="gysm-slf-develop-standard-service" target="1.8" />
       <module name="gysm.slf.develop.standard.service" target="1.8" />
       <module name="littleBird-practise(test)" target="8" />
       <module name="littleBird-web-test" target="8" />
@@ -56,7 +56,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="gysm.slf.develop.standard" options="-parameters" />
+      <module name="gysm-slf-develop-standard-service" options="-parameters" />
       <module name="gysm.slf.develop.standard.service" options="-parameters" />
       <module name="littleBird-cloud-alibaba-config-3377" options="-parameters" />
       <module name="littleBird-cloud-alibaba-nacos-order-84" options="-parameters" />

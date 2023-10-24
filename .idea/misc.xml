@@ -16,6 +16,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/cn-littleBird-zookeeper-order-provider-80/pom.xml" />
+        <option value="$PROJECT_DIR$/gysm-slf-develop-standard-service/pom.xml" />
         <option value="$PROJECT_DIR$/littleBird-practise(test)/pom.xml" />
         <option value="$PROJECT_DIR$/littleBird-web-test/pom.xml" />
       </set>

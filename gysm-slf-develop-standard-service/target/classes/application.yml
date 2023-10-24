@@ -1,6 +1,0 @@
-server:
-  port: 2000
-
-spring:
-  application:
-    name: gysm.slf.develop.standard
